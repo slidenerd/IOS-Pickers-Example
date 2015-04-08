@@ -13,7 +13,7 @@ class CustomPickerViewController: UIViewController, UIPickerViewDataSource, UIPi
     @IBOutlet weak var customPicker: UIPickerView!
     @IBOutlet weak var winLabel: UILabel!
     private var images : [UIImage]!
-    //the method that runs the spin
+    //the method that runs the spin, guess how it works
     @IBAction func buttonPressed(sender: AnyObject) {
         var win = false;
         var numInRow = -1;
