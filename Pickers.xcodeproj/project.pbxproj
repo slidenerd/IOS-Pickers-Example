@@ -13,6 +13,12 @@
 		CC2866A91AC7BCA500247E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2866A81AC7BCA500247E65 /* Images.xcassets */; };
 		CC2866AC1AC7BCA500247E65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2866AA1AC7BCA500247E65 /* LaunchScreen.xib */; };
 		CC2866B81AC7BCA500247E65 /* PickersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2866B71AC7BCA500247E65 /* PickersTests.swift */; };
+		CC2866C41AC7BD7600247E65 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2866C31AC7BD7600247E65 /* DatePickerViewController.swift */; };
+		CC2866C61AC7C1D900247E65 /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2866C51AC7C1D900247E65 /* SingleComponentPickerViewController.swift */; };
+		CC2866C81AC7C1EE00247E65 /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2866C71AC7C1EE00247E65 /* DoubleComponentPickerViewController.swift */; };
+		CC2866CA1AC7C20300247E65 /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2866C91AC7C20300247E65 /* DependentComponentPickerViewController.swift */; };
+		CC2866CC1AC7C21B00247E65 /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2866CB1AC7C21B00247E65 /* CustomPickerViewController.swift */; };
+		CCB149511AD43F1B00A439EB /* states.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCB149501AD43F1B00A439EB /* states.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		CC2866B11AC7BCA500247E65 /* PickersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2866B61AC7BCA500247E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC2866B71AC7BCA500247E65 /* PickersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersTests.swift; sourceTree = "<group>"; };
+		CC2866C31AC7BD7600247E65 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		CC2866C51AC7C1D900247E65 /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		CC2866C71AC7C1EE00247E65 /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		CC2866C91AC7C20300247E65 /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		CC2866CB1AC7C21B00247E65 /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		CCB149501AD43F1B00A439EB /* states.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = states.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,12 @@
 				CC2866A81AC7BCA500247E65 /* Images.xcassets */,
 				CC2866AA1AC7BCA500247E65 /* LaunchScreen.xib */,
 				CC28669F1AC7BCA500247E65 /* Supporting Files */,
+				CC2866C31AC7BD7600247E65 /* DatePickerViewController.swift */,
+				CC2866C51AC7C1D900247E65 /* SingleComponentPickerViewController.swift */,
+				CC2866C71AC7C1EE00247E65 /* DoubleComponentPickerViewController.swift */,
+				CC2866C91AC7C20300247E65 /* DependentComponentPickerViewController.swift */,
+				CC2866CB1AC7C21B00247E65 /* CustomPickerViewController.swift */,
+				CCB149501AD43F1B00A439EB /* states.plist */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -194,6 +212,7 @@
 			files = (
 				CC2866A71AC7BCA500247E65 /* Main.storyboard in Resources */,
 				CC2866AC1AC7BCA500247E65 /* LaunchScreen.xib in Resources */,
+				CCB149511AD43F1B00A439EB /* states.plist in Resources */,
 				CC2866A91AC7BCA500247E65 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +233,11 @@
 			files = (
 				CC2866A41AC7BCA500247E65 /* ViewController.swift in Sources */,
 				CC2866A21AC7BCA500247E65 /* AppDelegate.swift in Sources */,
+				CC2866CA1AC7C20300247E65 /* DependentComponentPickerViewController.swift in Sources */,
+				CC2866C81AC7C1EE00247E65 /* DoubleComponentPickerViewController.swift in Sources */,
+				CC2866CC1AC7C21B00247E65 /* CustomPickerViewController.swift in Sources */,
+				CC2866C61AC7C1D900247E65 /* SingleComponentPickerViewController.swift in Sources */,
+				CC2866C41AC7BD7600247E65 /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +433,7 @@
 				CC2866BD1AC7BCA500247E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC2866BE1AC7BCA500247E65 /* Build configuration list for PBXNativeTarget "PickersTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +442,7 @@
 				CC2866C01AC7BCA500247E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
