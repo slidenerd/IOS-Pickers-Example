@@ -13,10 +13,12 @@ class CustomPickerViewController: UIViewController, UIPickerViewDataSource, UIPi
     @IBOutlet weak var customPicker: UIPickerView!
     @IBOutlet weak var winLabel: UILabel!
     private var images : [UIImage]!
+    //the method that runs the spin
     @IBAction func buttonPressed(sender: AnyObject) {
         var win = false;
         var numInRow = -1;
         var lastValue = -1;
+        
         for i in 0..<3 {
             let newValue = Int(arc4random_uniform(UInt32(images.count)))
             if newValue == lastValue {
